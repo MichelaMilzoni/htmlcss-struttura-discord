@@ -9,15 +9,16 @@
 .container {
     max-width: 900px; /* Larghezza massima */
     margin: 0 auto; /* Centra il contenitore */
-    padding: 0 20px
+    padding: 0 20px;
   }
 
 .debug {
   border: 2px dotted #ff0000;
   background-color: rgba(255, 0, 0, 0.5);
+  height: 300px;
 }
 
-#a {
+a {
   text-decoration: none;
 }
 
@@ -27,14 +28,44 @@
   align-items: center;
 }
 
-.container-flex-small {
+.container-flex-small,
+.flex-container > main {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   }
 
+.odd-container {
+  background-color: #ffffff;
+  padding: 15px 20px;
+}
+
+.even-container {
+  background-color: grey;
+  flex-direction: row-reverse;
+}
 
     /* UTILITY */
+
+.border {
+  border: 2px dashed black;
+}
+
+.azure-section {
+  background-color: #86c9f0;
+  height: 200px;
+  padding: 10px 0;
+  flex-basis: 60%;
+  padding: 10px 0;
+}
+
+.pink-section {
+  background-color: #ffb7e9;
+  height: 200px;
+  padding: 10px 0;
+  flex-basis: 40%;
+  padding: 10px 0;
+}
 
 
     /* BODY */
@@ -75,17 +106,18 @@ header {
 .bootstrap {
   background-color: #0400ff;
   height: 200px;
+  padding: 10px 0;
 }
 
 .bootstrap-content {
   background-color: rgb(230, 137, 153);
   width: 50%;
   height: 100%;
+  /* height va tolto una volta che c'è il contenuto */
 }
 
 
     /* MAIN */
-
 
 
     /* FOOTER */
