@@ -43,10 +43,13 @@ a {
 .even-container {
   background-color: grey;
   flex-direction: row-reverse;
+  padding: 15px 20px;
 }
 
     /* UTILITY */
-
+.grey-container {
+  background-color: grey;
+}
 .border {
   border: 2px dashed black;
 }
@@ -67,6 +70,13 @@ a {
   padding: 10px 0;
 }
 
+.green-section {
+  background-color: #007e34;
+  height: 550px;
+  padding: 10px 0;
+  flex-basis: 100%;
+  padding: 10px 0;
+}
 
     /* BODY */
 body {
