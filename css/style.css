@@ -15,7 +15,6 @@
 .debug {
   border: 2px dotted #ff0000;
   background-color: rgba(255, 0, 0, 0.5);
-  height: 300px;
 }
 
 a {
@@ -32,8 +31,7 @@ a {
 .flex-container > main {
   display: flex;
   justify-content: center;
-
-  }
+}
 
 .odd-container {
   background-color: #ffffff;
@@ -41,21 +39,36 @@ a {
 }
 
 .even-container {
-  background-color: grey;
   flex-direction: row-reverse;
   padding: 15px 20px;
 }
 
+.column-container {
+  flex-direction: column;
+}
+
     /* UTILITY */
-.grey-container {
+ .grey-container {
   background-color: grey;
+}
+
+.darkgrey-container {
+  background-color: #23272a;
 }
 .border {
   border: 2px dashed black;
 }
 
+.white-border {
+  border: 2px dashed #ffffff;
+}
+
+.solid-border {
+  border-bottom: 2px solid #ffffff;
+}
+
 .azure-section {
-  background-color: #86c9f0;
+  background-color: #1e90ff;
   height: 200px;
   padding: 10px 0;
   flex-basis: 60%;
@@ -63,7 +76,7 @@ a {
 }
 
 .pink-section {
-  background-color: #ffb7e9;
+  background-color: #ffc0ca;
   height: 200px;
   padding: 10px 0;
   flex-basis: 40%;
@@ -71,11 +84,27 @@ a {
 }
 
 .green-section {
-  background-color: #007e34;
+  background-color:#218b21;
   height: 550px;
   padding: 10px 0;
   flex-basis: 100%;
   padding: 10px 0;
+}
+
+.darkpink-section {
+  background-color: #f08180;
+  height: 300px;
+  flex-basis: 30%;
+  padding: 10px 0;
+  flex-grow: 1;
+}
+
+.aquamarine-section {
+  background-color: #20b3aa;
+  height: 300px;
+  padding: 10px 0;
+  flex-basis: 25%;
+  flex-grow: 1;
 }
 
     /* BODY */
@@ -85,7 +114,7 @@ body {
 
     /* HEADER */
 header {
-  background-color: #add8e7;
+  background-color: rgb(37, 150, 190);
   height: 265px;
 }
 
@@ -96,7 +125,7 @@ header {
 .navbar > * {
   flex-basis: 20%;
   padding: 10px 0;
-  background-color: gold;
+  background-color: #daa51e
 }
 
 .nav-link {
@@ -114,20 +143,37 @@ header {
 }
 
 .bootstrap {
-  background-color: #0400ff;
+  background-color: #00018b;
   height: 200px;
   padding: 10px 0;
 }
 
 .bootstrap-content {
-  background-color: rgb(230, 137, 153);
+  background-color: #ef82ed;
   width: 50%;
   height: 100%;
   /* height va tolto una volta che c'è il contenuto */
 }
 
+/* FOOTER */
+footer {
+  background-color: #23272a;
+}
 
-    /* MAIN */
+.footerbar {
+  height: 60px;
 
+}
+.login-button {
+  background-color: #7fffd4;
+  flex-grow: 1;
+  text-align: left;
+  padding: 10px 0;
+}
 
-    /* FOOTER */
+.bottone-button {
+  background-color: #7fffd4;
+  flex-grow: 1;
+  text-align: right;
+  padding: 10px 0;
+}
