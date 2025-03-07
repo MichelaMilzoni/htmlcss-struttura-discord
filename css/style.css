@@ -20,6 +20,20 @@
 #a {
   text-decoration: none;
 }
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-small {
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  }
+
+
     /* UTILITY */
 
 
@@ -35,10 +49,9 @@ header {
 
 .navbar {
   height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: gold;
 }
+
 
 .nav-logo {
 
@@ -46,6 +59,11 @@ header {
 
 .nav-button {
 
+}
+
+.header-figure {
+  height: 200px;
+  background-color: #ef82ed;
 }
 
 
