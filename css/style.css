@@ -1,0 +1,56 @@
+    /* GENERALI */
+
+* {
+    margin: 0; /* Rimuove i margini predefiniti */
+    padding: 0; /* Rimuove il padding predefinito */
+    box-sizing: border-box; /* Include il padding e i bordi nelle dimensioni degli elementi */
+  }
+
+.container {
+    max-width: 900px; /* Larghezza massima */
+    margin: 0 auto; /* Centra il contenitore */
+    padding: 0 20px
+  }
+
+.debug {
+  border: 2px dotted #ff0000;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#a {
+  text-decoration: none;
+}
+    /* UTILITY */
+
+
+    /* BODY */
+body {
+    font-family: Arial, sans-serif; /* Font predefinito */
+}
+
+    /* HEADER */
+header {
+  background-color: #add8e7;
+}
+
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+
+}
+
+.nav-button {
+
+}
+
+
+    /* MAIN */
+
+
+
+    /* FOOTER */
