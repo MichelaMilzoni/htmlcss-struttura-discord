@@ -21,14 +21,14 @@
   text-decoration: none;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.container-small {
-  max-width: 600px;
+.container-flex-small {
+  display: flex;
   justify-content: center;
   align-items: center;
   }
@@ -45,25 +45,42 @@ body {
     /* HEADER */
 header {
   background-color: #add8e7;
+  height: 265px;
 }
 
 .navbar {
-  height: 40px;
+  height: 60px;
+}
+
+.navbar > * {
+  flex-basis: 20%;
+  padding: 10px 0;
   background-color: gold;
 }
 
+.nav-link {
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
 
 .nav-logo {
-
+  text-align: left;
 }
 
 .nav-button {
-
+  text-align: right;
 }
 
-.header-figure {
+.bootstrap {
+  background-color: #0400ff;
   height: 200px;
-  background-color: #ef82ed;
+}
+
+.bootstrap-content {
+  background-color: rgb(230, 137, 153);
+  width: 50%;
+  height: 100%;
 }
 
 
