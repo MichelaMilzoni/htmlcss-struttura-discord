@@ -11,85 +11,95 @@
 
 <body>
     <!-- HEADER -->
-  <header>
+  <header class="page-header">
       <!-- BARRA DI NAVIGAZIONE - HEADER -->
-    <nav class="flex-container container navbar">
-      <div class="nav-logo border">
-        <img src="#" alt="logo">
-      </div>
-      <div class="nav-link border">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-      </div>
-      <div class="nav-button border">
-        <button>Login</button>
+    <nav class="navbar-header">
+      <div class="container">
+        <div class="header-logo">
+          <img src="#" alt="logo">
+        </div>
+        <div class="header-link">
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </div>
+        <div class="header-login">
+          <button>Login</button>
+        </div>
       </div>
     </nav>
       <!-- BOOTSTRAP - indica una sezione prominente
         di una pagina web, spesso usata per attirare 
         l'attenzione con un messaggio o un'immagine
         di grande impatto -->
-    <div class="bootstrap container-flex-small">
-      <div class="bootstrap-content border"></div>
+    <div class="bootstrap">
+      <div class="container container-xs">
+        <div class="hero"></div>
+      </div>
     </div>
-
   </header>
 
    <!-- MAIN -->
-  <main>
-    <div>
-      <div class="container flex-container odd-container">
-        <div class="azure-section border"></div>
-        <div class="pink-section border"></div>
+  <main class="page-content">
+    <!-- section 1 -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-60"></div>
+          <div class="col-40"></div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="grey-container">
-      <div class="container flex-container even-container">
-        <div class="azure-section border"></div>
-        <div class="pink-section border"></div>
+    <!-- section 2 -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-60"></div>
+          <div class="col-40"></div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div>
-      <div class="container flex-container odd-container">
-        <div class="azure-section border"></div>
-        <div class="pink-section border"></div>
+    <!-- section 3 -->
+    <section>
+      <div class="container odd">
+        <div class="row">
+          <div class="col-60"></div>
+          <div class="col-40"></div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="grey-container">
-      <div class="container flex-container even-container">
-        <div class="green-section border"></div>
+    <!-- section 4 -->
+    <section>
+      <div class="container">
+        <div class="large-content"></div>
       </div>
-    </div>
+    </section>
   </main>
 
    <!-- FOOTER -->
-<footer>
-
-<div class="darkgrey-container solid-border container flex-container even-container">
-  <section class="aquamarine-section white-border"></section>
-  <section class="aquamarine-section white-border"></section>
-  <section class="aquamarine-section white-border"></section>
-  <section class="aquamarine-section white-border"></section>
-  <div class="container darkpink-section border"></div>
-</div>
-
-<div class="darkgrey-container">
-  <div class="darkgrey-container flex-container container footerbar">
-    <div class="login-button">
-      <button class="border">Login</button>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row footer-top">
+      <div class="col-30"></div>
+      <div class="col-70">
+        <div class="row">
+          <div class="col-25"></div>
+          <div class="col-25"></div>
+          <div class="col-25"></div>
+          <div class="col-25"></div>
+        </div>
+      </div>
     </div>
-    <div class="bottone-button">
-      <button class="border">Bottone</button>
+    <div class="row footer-bottom">
+      <div>Logo</div>
+      <div>Bottone</div>
     </div>
-</div>    
   </div>
-
 </footer>
 
 </body>
