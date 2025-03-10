@@ -38,6 +38,10 @@ ul {
   display: flex;
 }
 
+.row > div {
+  border: 1px dashed black;
+}
+
 .col-70 {
   width: 70%;
 }
@@ -173,4 +177,8 @@ display: flex;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-bottom > * {
+  border: 1px dashed black;
 }
